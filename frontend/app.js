@@ -6,7 +6,7 @@ const DATA = '/data';
 let htcIndex = null;
 let countryNames = null;
 let landgroupsMap = null;
-const bestZeroCache = {};
+const bestOriginCache = {};
 const agreementsCache = {};
 
 async function fetchJson(url) {
@@ -68,19 +68,64 @@ async function searchHtc(q, limit = 50) {
   return filtered.slice(0, Math.min(limit, 200));
 }
 
-// Best origin: țări cu cele mai mici tarife (zero duty) from best_zero/XX.json
-async function getBestZeroCountries(code) {
+// Best origin: calculează grupurile de țări cu cel mai mic tarif din best_origin/XX.json
+async function getBestOrigin(code) {
   if (!code || code.length < 2) return null;
   const ch = code.slice(0, 2);
-  if (!bestZeroCache[ch]) {
+  if (!bestOriginCache[ch]) {
     try {
-      bestZeroCache[ch] = await fetchJson(`${DATA}/best_zero/${ch}.json`);
-    } catch (e) {
+      bestOriginCache[ch] = await fetchJson(`${DATA}/best_origin/${ch}.json`);
+    } catch {
       return null;
     }
   }
-  const entry = bestZeroCache[ch][code];
-  return entry ? { code, countries: entry.countries || [] } : null;
+  const entry = bestOriginCache[ch][code];
+  if (!entry) return null;
+
+  await getCountryNames();
+  await getLandgroupsMap();
+
+  const agreements = Array.isArray(entry.agreements) ? entry.agreements : [];
+  if (!agreements.length) {
+    return {
+      code,
+      countries: [],
+      info: { message: 'Nu există acorduri preferențiale cu tarif mai mic decât cel de bază.' },
+    };
+  }
+
+  // Găsim valoarea minimă dintre acorduri (ignorăm cele fără value).
+  const numeric = agreements.filter(a => typeof a.value === 'number');
+  if (!numeric.length) {
+    return { code, countries: [], info: { message: 'Nu există tarife numerice pentru acest cod.' } };
+  }
+  let minVal = Infinity;
+  numeric.forEach(a => {
+    if (a.value < minVal) minVal = a.value;
+  });
+  const bestGroups = numeric.filter(a => a.value === minVal);
+
+  // Extindem grupurile în liste de țări și deduplicăm ISO.
+  const allCountries = [];
+  bestGroups.forEach(g => {
+    const countries = getLandgroupCountries(g.code);
+    countries.forEach(c => allCountries.push(c));
+  });
+  const byIso = new Map();
+  allCountries.forEach(c => {
+    if (!c || !c.iso) return;
+    if (!byIso.has(c.iso)) byIso.set(c.iso, c);
+  });
+
+  return {
+    code,
+    countries: Array.from(byIso.values()),
+    info: {
+      min_value: minVal,
+      unit: bestGroups[0]?.unit || null,
+      rate_type: bestGroups[0]?.rate_type || null,
+    },
+  };
 }
 
 // Agreements for HTC from ratetradeagreements/XX.json + landgroups
@@ -113,11 +158,6 @@ async function getAgreements(code) {
   return { code, agreements };
 }
 
-function fmtCurrency(n) {
-  if (n === null || n === undefined) return '-';
-  return new Intl.NumberFormat('en-NO', { style: 'currency', currency: 'NOK', maximumFractionDigits: 2 }).format(n);
-}
-
 function renderCountries(container, countries) {
   const list = document.createElement('div');
   list.className = 'country-list';
@@ -132,22 +172,34 @@ function renderCountries(container, countries) {
 
 function renderBestOrigin(output, data) {
   output.innerHTML = '';
-  if (!data || !data.countries) {
+  if (!data) {
     const item = document.createElement('div');
     item.className = 'item';
-    item.textContent = data && data.code ? 'Nu există date pentru acest cod sau tarif 0% nu e disponibil.' : 'Introdu un cod HTC și apasă Compute.';
+    item.textContent = 'Nu există date pentru acest cod sau tarif aplicabil.';
+    output.appendChild(item);
+    return;
+  }
+  if (!data.countries || !data.countries.length) {
+    const item = document.createElement('div');
+    item.className = 'item';
+    item.textContent = data.info && data.info.message
+      ? data.info.message
+      : 'Nu există acorduri mai avantajoase decât tariful de bază.';
     output.appendChild(item);
     return;
   }
   const item = document.createElement('div');
   item.className = 'item';
   const h3 = document.createElement('h3');
-  h3.textContent = `Țări cu cele mai mici tarife (0% vamă) pentru ${data.code}`;
+  h3.textContent = `Țări cu cele mai mici tarife pentru ${data.code}`;
   item.appendChild(h3);
   renderCountries(item, data.countries);
   const meta = document.createElement('div');
   meta.className = 'meta';
-  meta.textContent = 'Aceste țări beneficiază de tarif vamal 0% (acorduri preferențiale).';
+  const unitText = data.info && data.info.unit ? ` / ${data.info.unit}` : '';
+  meta.textContent = data.info && typeof data.info.min_value === 'number'
+    ? `Tarif minim pe grupurile afișate: ${data.info.min_value}${unitText} (${data.info.rate_type || ''}).`
+    : 'Acorduri cu cele mai mici tarife vamale disponibile.';
   item.appendChild(meta);
   output.appendChild(item);
 }
@@ -201,7 +253,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const code = document.getElementById('htcCode').value.trim();
     bestOutput.innerHTML = '<div class="item">Se încarcă…</div>';
     try {
-      const data = await getBestZeroCountries(code);
+      const data = await getBestOrigin(code);
       renderBestOrigin(bestOutput, data);
     } catch (err) {
       bestOutput.innerHTML = `<div class="item">Eroare: ${err.message}</div>`;
@@ -228,8 +280,13 @@ window.addEventListener('DOMContentLoaded', () => {
     const code = agreementsCode.value.trim();
     agreementsOutput.innerHTML = '<div class="item">Se încarcă…</div>';
     try {
-      const data = await getBestZeroCountries(code);
-      renderAgreements(agreementsOutput, data && data.countries ? { code, agreements: [{ agreement_name: 'Tarif 0%', countries: data.countries }] } : { code, agreements: [] });
+      const data = await getBestOrigin(code);
+      renderAgreements(
+        agreementsOutput,
+        data && data.countries
+          ? { code, agreements: [{ agreement_name: 'Cele mai mici tarife', countries: data.countries }] }
+          : { code, agreements: [] }
+      );
     } catch (err) {
       agreementsOutput.innerHTML = `<div class="item">Eroare: ${err.message}</div>`;
     }
