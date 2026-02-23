@@ -1,0 +1,10 @@
+# Deploy gratuit pe Netlify: doar frontend + date JSON (tolltariffen)
+[build]
+  command = "npm run build"
+  publish = "frontend"
+
+# SPA: rute necunoscute → index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,2141 @@
+{
+  "groups": {
+    "AKOR": {
+      "name": "Avgifter fra visse land",
+      "countries": [
+        "AF",
+        "IN",
+        "IQ",
+        "MX",
+        "NP",
+        "PK",
+        "US"
+      ]
+    },
+    "ALD1": {
+      "name": "Avgift fra alle land unntatt Europa",
+      "countries": [
+        "AE",
+        "AF",
+        "AG",
+        "AI",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AU",
+        "AW",
+        "BB",
+        "BD",
+        "BF",
+        "BH",
+        "BI",
+        "BJ",
+        "BM",
+        "BN",
+        "BO",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BV",
+        "BW",
+        "BZ",
+        "CA",
+        "CC",
+        "CD",
+        "CF",
+        "CG",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "CW",
+        "CX",
+        "DJ",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EG",
+        "EH",
+        "ER",
+        "ET",
+        "FJ",
+        "FK",
+        "FM",
+        "GA",
+        "GD",
+        "GF",
+        "GH",
+        "GM",
+        "GN",
+        "GP",
+        "GQ",
+        "GT",
+        "GU",
+        "GW",
+        "GY",
+        "HK",
+        "HM",
+        "HN",
+        "HT",
+        "ID",
+        "IL",
+        "IN",
+        "IO",
+        "IQ",
+        "IR",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KH",
+        "KI",
+        "KM",
+        "KN",
+        "KP",
+        "KR",
+        "KW",
+        "KY",
+        "LA",
+        "LB",
+        "LC",
+        "LK",
+        "LR",
+        "LS",
+        "LY",
+        "MA",
+        "MG",
+        "MH",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MQ",
+        "MR",
+        "MS",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NF",
+        "NG",
+        "NI",
+        "NP",
+        "NR",
+        "NU",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PM",
+        "PN",
+        "PR",
+        "PW",
+        "PY",
+        "QA",
+        "RE",
+        "RW",
+        "SA",
+        "SB",
+        "SC",
+        "SD",
+        "SG",
+        "SH",
+        "SL",
+        "SN",
+        "SO",
+        "SR",
+        "SS",
+        "ST",
+        "SV",
+        "SX",
+        "SY",
+        "SZ",
+        "TC",
+        "TD",
+        "TF",
+        "TG",
+        "TH",
+        "TK",
+        "TL",
+        "TN",
+        "TO",
+        "TT",
+        "TV",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "UM",
+        "US",
+        "UY",
+        "VC",
+        "VE",
+        "VG",
+        "VI",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "YE",
+        "ZA",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "ALD2": {
+      "name": "Avgift fra visse land",
+      "countries": [
+        "PT"
+      ]
+    },
+    "ALLE": {
+      "name": "Avgift fra alle land",
+      "countries": []
+    },
+    "EU": {
+      "name": "EU innførsel fra EU/EFTA land",
+      "countries": []
+    },
+    "RAEF": {
+      "name": "Importforbud fra enkelte EU-land",
+      "countries": [
+        "BG",
+        "RO"
+      ]
+    },
+    "RAF": {
+      "name": "Restriksjon fra Afghanistan",
+      "countries": [
+        "AF"
+      ]
+    },
+    "RAL": {
+      "name": "Restriksjoner fra Albania",
+      "countries": [
+        "AL"
+      ]
+    },
+    "RALL": {
+      "name": "Restriksjon fra alle land",
+      "countries": []
+    },
+    "RAR": {
+      "name": "Restriksjon fra Argentina",
+      "countries": [
+        "AR"
+      ]
+    },
+    "RAU": {
+      "name": "Restriksjon Australia",
+      "countries": [
+        "AU"
+      ]
+    },
+    "RAZ": {
+      "name": "Restriksjon fra Aserbajdsjan",
+      "countries": [
+        "AZ"
+      ]
+    },
+    "RBA": {
+      "name": "Restriksjoner fra Bosnia-Hercegovin",
+      "countries": [
+        "BA"
+      ]
+    },
+    "RBD": {
+      "name": "Restriksjon Bangladesh",
+      "countries": [
+        "BD"
+      ]
+    },
+    "RBEF": {
+      "name": "Restriksjoner enkelte EU-land",
+      "countries": [
+        "IE"
+      ]
+    },
+    "RBF": {
+      "name": "Restriksjoner Burkina Faso",
+      "countries": [
+        "BF"
+      ]
+    },
+    "RBJ": {
+      "name": "Restriksjon Benin",
+      "countries": [
+        "BJ"
+      ]
+    },
+    "RBO": {
+      "name": "Restriksjon Bolivia",
+      "countries": [
+        "BO"
+      ]
+    },
+    "RBR": {
+      "name": "Restriksjon fra Brasil",
+      "countries": [
+        "BR"
+      ]
+    },
+    "RBY": {
+      "name": "Restriksjoner fra Hviterussland",
+      "countries": [
+        "BY"
+      ]
+    },
+    "RCH": {
+      "name": "Restriksjoner fra Sveits",
+      "countries": [
+        "CH"
+      ]
+    },
+    "RCI": {
+      "name": "Restriksjon fra elfenbenkysten",
+      "countries": [
+        "CI"
+      ]
+    },
+    "RCN": {
+      "name": "Restriksjon fra Kina",
+      "countries": [
+        "CN"
+      ]
+    },
+    "RCO": {
+      "name": "Restriksjon fra Columbia",
+      "countries": [
+        "CO"
+      ]
+    },
+    "RDKU": {
+      "name": "Restriksjon fra DK",
+      "countries": [
+        "DK"
+      ]
+    },
+    "RDO": {
+      "name": "Restriksjon fra Den Dom. republikk",
+      "countries": [
+        "DO"
+      ]
+    },
+    "REFT": {
+      "name": "Restriksjoner EU/EFTA-området",
+      "countries": []
+    },
+    "REG": {
+      "name": "Restriksjon fra Egypt",
+      "countries": [
+        "EG"
+      ]
+    },
+    "RET": {
+      "name": "Restriksjon Etiopia",
+      "countries": [
+        "ET"
+      ]
+    },
+    "RFO": {
+      "name": "Restriksjon fra Færøyene",
+      "countries": [
+        "FO"
+      ]
+    },
+    "RGB": {
+      "name": "Restriksjoner fra Storbritannia",
+      "countries": [
+        "GB"
+      ]
+    },
+    "RGE": {
+      "name": "Restriksjon fra Georgia",
+      "countries": [
+        "GE"
+      ]
+    },
+    "RGG": {
+      "name": "Restriksjoner fra Guernsey",
+      "countries": [
+        "GG"
+      ]
+    },
+    "RGH": {
+      "name": "Restriksjon fra Ghana",
+      "countries": [
+        "GH"
+      ]
+    },
+    "RGL": {
+      "name": "Restriksjon fra Grønland",
+      "countries": [
+        "GL"
+      ]
+    },
+    "RGM": {
+      "name": "Restriksjon fra Gambia",
+      "countries": [
+        "GM"
+      ]
+    },
+    "RGS2": {
+      "name": "Importovervåkning ordinære GSP-land",
+      "countries": [
+        "AL",
+        "AR",
+        "BB",
+        "BH",
+        "BO",
+        "BR",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "FJ",
+        "GA",
+        "GH",
+        "GT",
+        "GY",
+        "HN",
+        "ID",
+        "IN",
+        "IQ",
+        "IR",
+        "JM",
+        "JO",
+        "KE",
+        "KW",
+        "LB",
+        "LC",
+        "LK",
+        "MK",
+        "MN",
+        "MU",
+        "MY",
+        "NI",
+        "PA",
+        "PE",
+        "PG",
+        "PH",
+        "PK",
+        "PY",
+        "SA",
+        "SR",
+        "SV",
+        "SZ",
+        "TH",
+        "TN",
+        "TO",
+        "TT",
+        "UY",
+        "VE",
+        "VN",
+        "ZA",
+        "ZW"
+      ]
+    },
+    "RGSP": {
+      "name": "Importovervåkning alle GSP- land",
+      "countries": [
+        "AF",
+        "AO",
+        "AR",
+        "BB",
+        "BD",
+        "BH",
+        "BJ",
+        "BO",
+        "BR",
+        "BT",
+        "BW",
+        "CD",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "ET",
+        "FJ",
+        "GA",
+        "GH",
+        "GM",
+        "GN",
+        "GT",
+        "GY",
+        "HN",
+        "HT",
+        "ID",
+        "IN",
+        "IQ",
+        "IR",
+        "JM",
+        "JO",
+        "KE",
+        "KW",
+        "LA",
+        "LB",
+        "LC",
+        "LK",
+        "LR",
+        "LS",
+        "MG",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MU",
+        "MV",
+        "MW",
+        "MY",
+        "MZ",
+        "NA",
+        "NE",
+        "NI",
+        "NP",
+        "PA",
+        "PE",
+        "PG",
+        "PH",
+        "PK",
+        "PY",
+        "SA",
+        "SD",
+        "SN",
+        "SR",
+        "SS",
+        "SV",
+        "SZ",
+        "TG",
+        "TH",
+        "TN",
+        "TO",
+        "TT",
+        "TZ",
+        "UG",
+        "UY",
+        "VE",
+        "VN",
+        "ZA",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "RHK": {
+      "name": "Restriksjon fra Hong Kong",
+      "countries": [
+        "HK"
+      ]
+    },
+    "RHN": {
+      "name": "Restriksjon fra Honduras",
+      "countries": [
+        "HN"
+      ]
+    },
+    "RHR": {
+      "name": "Restriksjon fra Kroatia",
+      "countries": [
+        "HR"
+      ]
+    },
+    "RID": {
+      "name": "Restriksjon fra Indonesia",
+      "countries": [
+        "ID"
+      ]
+    },
+    "RIL": {
+      "name": "Restriksjon fra Israel",
+      "countries": [
+        "IL"
+      ]
+    },
+    "RIM": {
+      "name": "Restriksjoner Isle of Man",
+      "countries": [
+        "IM"
+      ]
+    },
+    "RIN": {
+      "name": "Restriksjon fra India",
+      "countries": [
+        "IN"
+      ]
+    },
+    "RIR": {
+      "name": "Restriksjon fra Iran",
+      "countries": [
+        "IR"
+      ]
+    },
+    "RISL": {
+      "name": "Restriksjon fra Island",
+      "countries": [
+        "IS"
+      ]
+    },
+    "RIT": {
+      "name": "Restriksjoner fra Italia",
+      "countries": [
+        "IT"
+      ]
+    },
+    "RJE": {
+      "name": "Restriksjoner fra Jersey",
+      "countries": [
+        "JE"
+      ]
+    },
+    "RJP": {
+      "name": "Restriksjon Japan",
+      "countries": [
+        "JP"
+      ]
+    },
+    "RKE": {
+      "name": "Restriksjon Kenya",
+      "countries": [
+        "KE"
+      ]
+    },
+    "RKEU": {
+      "name": "Restriksjon fra EU",
+      "countries": [
+        "CY"
+      ]
+    },
+    "RKH": {
+      "name": "Restriksjon Kambodsja",
+      "countries": [
+        "KH"
+      ]
+    },
+    "RKOR": {
+      "name": "Restriksjon sykdom Tilletia indica",
+      "countries": [
+        "AF",
+        "IN",
+        "IQ",
+        "IR",
+        "MX",
+        "NP",
+        "PK",
+        "US",
+        "ZA"
+      ]
+    },
+    "RKR": {
+      "name": "Restriksjon fra Sør-Korea",
+      "countries": [
+        "KR"
+      ]
+    },
+    "RLB": {
+      "name": "Restriksjon fra Libanon",
+      "countries": [
+        "LB"
+      ]
+    },
+    "RLD1": {
+      "name": "Restriksjoner land unntatt Europa",
+      "countries": [
+        "AE",
+        "AF",
+        "AG",
+        "AI",
+        "AM",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AU",
+        "AW",
+        "AZ",
+        "BB",
+        "BD",
+        "BF",
+        "BH",
+        "BI",
+        "BJ",
+        "BM",
+        "BN",
+        "BO",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BV",
+        "BW",
+        "BZ",
+        "CA",
+        "CC",
+        "CD",
+        "CF",
+        "CG",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "CW",
+        "CX",
+        "DJ",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EG",
+        "EH",
+        "ER",
+        "ET",
+        "FJ",
+        "FK",
+        "FM",
+        "GA",
+        "GD",
+        "GE",
+        "GF",
+        "GH",
+        "GM",
+        "GN",
+        "GP",
+        "GQ",
+        "GT",
+        "GU",
+        "GW",
+        "GY",
+        "HK",
+        "HM",
+        "HN",
+        "HT",
+        "ID",
+        "IL",
+        "IN",
+        "IO",
+        "IQ",
+        "IR",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KG",
+        "KH",
+        "KI",
+        "KM",
+        "KN",
+        "KP",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LK",
+        "LR",
+        "LS",
+        "LY",
+        "MA",
+        "MG",
+        "MH",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MQ",
+        "MR",
+        "MS",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NF",
+        "NG",
+        "NI",
+        "NP",
+        "NR",
+        "NU",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PM",
+        "PN",
+        "PR",
+        "PW",
+        "PY",
+        "QA",
+        "RE",
+        "RW",
+        "SA",
+        "SB",
+        "SC",
+        "SD",
+        "SG",
+        "SH",
+        "SL",
+        "SN",
+        "SO",
+        "SR",
+        "SS",
+        "ST",
+        "SV",
+        "SX",
+        "SY",
+        "SZ",
+        "TC",
+        "TD",
+        "TF",
+        "TG",
+        "TH",
+        "TJ",
+        "TK",
+        "TL",
+        "TM",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TV",
+        "TW",
+        "TZ",
+        "UG",
+        "UM",
+        "US",
+        "UY",
+        "UZ",
+        "VC",
+        "VE",
+        "VG",
+        "VI",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "YE",
+        "ZA",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "RLD2": {
+      "name": "Restriksjoner fra visse land",
+      "countries": [
+        "PT"
+      ]
+    },
+    "RLK": {
+      "name": "Restriksjon Sri Lanka",
+      "countries": [
+        "LK"
+      ]
+    },
+    "RLV": {
+      "name": "Restriksjon fra Latvia",
+      "countries": [
+        "LV"
+      ]
+    },
+    "RMA": {
+      "name": "Restriksjon fra Marokko",
+      "countries": [
+        "MA"
+      ]
+    },
+    "RMD": {
+      "name": "Restriksjoner fra Moldova",
+      "countries": [
+        "MD"
+      ]
+    },
+    "RME": {
+      "name": "Restriksjoner fra Montenegro",
+      "countries": [
+        "ME"
+      ]
+    },
+    "RMG": {
+      "name": "Restriksjon fra Madagaskar",
+      "countries": [
+        "MG"
+      ]
+    },
+    "RMK": {
+      "name": "Restriksjoner fra Nord-Makedonia",
+      "countries": [
+        "MK"
+      ]
+    },
+    "RMUL": {
+      "name": "Importovervåkning MUL-land(GSP)",
+      "countries": [
+        "AF",
+        "AO",
+        "BD",
+        "BJ",
+        "BT",
+        "BW",
+        "CD",
+        "CV",
+        "ET",
+        "GM",
+        "GN",
+        "HT",
+        "LA",
+        "LR",
+        "LS",
+        "MG",
+        "ML",
+        "MM",
+        "MV",
+        "MW",
+        "MZ",
+        "NA",
+        "NE",
+        "NP",
+        "SD",
+        "SN",
+        "SS",
+        "TG",
+        "TZ",
+        "UG",
+        "ZM"
+      ]
+    },
+    "RMX": {
+      "name": "Restriksjon fra Mexico",
+      "countries": [
+        "MX"
+      ]
+    },
+    "RMY": {
+      "name": "Restriksjoner Malaysia",
+      "countries": [
+        "MY"
+      ]
+    },
+    "RNG": {
+      "name": "Restriksjon fra Nigeria",
+      "countries": [
+        "NG"
+      ]
+    },
+    "RPE": {
+      "name": "Restriksjon fra Peru",
+      "countries": [
+        "PE"
+      ]
+    },
+    "RPK": {
+      "name": "Restriksjon fra Pakistan",
+      "countries": [
+        "PK"
+      ]
+    },
+    "RPT": {
+      "name": "Restriksjoner fra Portugal",
+      "countries": [
+        "PT"
+      ]
+    },
+    "RRIS": {
+      "name": "Restriksjoner ved import av ris",
+      "countries": [
+        "US"
+      ]
+    },
+    "RRS": {
+      "name": "Restriksjon fra Serbia",
+      "countries": [
+        "RS"
+      ]
+    },
+    "RRU": {
+      "name": "Restriksjoner fra Russland",
+      "countries": [
+        "RU"
+      ]
+    },
+    "RRW": {
+      "name": "Restriksjon fra Rwanda",
+      "countries": [
+        "RW"
+      ]
+    },
+    "RSD": {
+      "name": "Restriksjon Sudan",
+      "countries": [
+        "SD"
+      ]
+    },
+    "RSEU": {
+      "name": "Restriksjon fra EU",
+      "countries": [
+        "PT"
+      ]
+    },
+    "RSL": {
+      "name": "Restriksjon Sierra Leone",
+      "countries": [
+        "SL"
+      ]
+    },
+    "RSN": {
+      "name": "Restriksjon Senegal",
+      "countries": [
+        "SN"
+      ]
+    },
+    "RSNT": {
+      "name": "Restriksjoner dyr/produkter",
+      "countries": []
+    },
+    "RSY": {
+      "name": "Restriksjon fra Syria",
+      "countries": [
+        "SY"
+      ]
+    },
+    "RTH": {
+      "name": "Restriksjon fra Thailand",
+      "countries": [
+        "TH"
+      ]
+    },
+    "RTR": {
+      "name": "Restriksjon fra Tyrkia",
+      "countries": [
+        "TR"
+      ]
+    },
+    "RUA": {
+      "name": "Restriksjoner fra Ukraina",
+      "countries": [
+        "UA"
+      ]
+    },
+    "RUEO": {
+      "name": "Restriksjon alle land unntatt EØS",
+      "countries": [
+        "AD",
+        "AE",
+        "AF",
+        "AG",
+        "AI",
+        "AL",
+        "AM",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AU",
+        "AW",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BF",
+        "BH",
+        "BI",
+        "BJ",
+        "BM",
+        "BN",
+        "BO",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BV",
+        "BW",
+        "BY",
+        "BZ",
+        "CA",
+        "CC",
+        "CD",
+        "CF",
+        "CG",
+        "CH",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "CW",
+        "CX",
+        "DJ",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EG",
+        "EH",
+        "ER",
+        "ET",
+        "FJ",
+        "FK",
+        "FM",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GM",
+        "GN",
+        "GP",
+        "GQ",
+        "GS",
+        "GT",
+        "GU",
+        "GW",
+        "GY",
+        "HK",
+        "HM",
+        "HN",
+        "HT",
+        "ID",
+        "IL",
+        "IM",
+        "IN",
+        "IO",
+        "IQ",
+        "IR",
+        "JE",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KG",
+        "KH",
+        "KI",
+        "KM",
+        "KN",
+        "KP",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LK",
+        "LR",
+        "LS",
+        "LY",
+        "MA",
+        "MD",
+        "ME",
+        "MG",
+        "MH",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MQ",
+        "MR",
+        "MS",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NF",
+        "NG",
+        "NI",
+        "NP",
+        "NR",
+        "NU",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PM",
+        "PN",
+        "PR",
+        "PS",
+        "PW",
+        "PY",
+        "QA",
+        "RE",
+        "RS",
+        "RU",
+        "RW",
+        "SA",
+        "SB",
+        "SC",
+        "SD",
+        "SG",
+        "SH",
+        "SJ",
+        "SL",
+        "SM",
+        "SN",
+        "SO",
+        "SR",
+        "SS",
+        "ST",
+        "SV",
+        "SX",
+        "SY",
+        "SZ",
+        "TC",
+        "TD",
+        "TF",
+        "TG",
+        "TH",
+        "TJ",
+        "TK",
+        "TL",
+        "TM",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TV",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "UM",
+        "US",
+        "UY",
+        "UZ",
+        "VA",
+        "VC",
+        "VE",
+        "VG",
+        "VI",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "XK",
+        "YE",
+        "YT",
+        "ZA",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "RUG": {
+      "name": "Restriksjon Uganda",
+      "countries": [
+        "UG"
+      ]
+    },
+    "RUS": {
+      "name": "Restriksjon USA",
+      "countries": [
+        "US"
+      ]
+    },
+    "RUZ": {
+      "name": "Restriksjon fra Usbekistan",
+      "countries": [
+        "UZ"
+      ]
+    },
+    "RVN": {
+      "name": "Restriksjon fra Vietnam",
+      "countries": [
+        "VN"
+      ]
+    },
+    "RXK": {
+      "name": "Restriksjoner fra Kosovo",
+      "countries": [
+        "XK"
+      ]
+    },
+    "RZA": {
+      "name": "Restriksjon fra Sør-Afrika",
+      "countries": [
+        "ZA"
+      ]
+    },
+    "TAL": {
+      "name": "Toll fra Albania",
+      "countries": [
+        "AL"
+      ]
+    },
+    "TALL": {
+      "name": "Toll fra alle land (ordinær toll)",
+      "countries": []
+    },
+    "TBA": {
+      "name": "Toll fra Bosnia-Hercegovina",
+      "countries": [
+        "BA"
+      ]
+    },
+    "TCA": {
+      "name": "Toll fra Canada",
+      "countries": [
+        "CA"
+      ]
+    },
+    "TCL": {
+      "name": "Toll fra Chile",
+      "countries": [
+        "CL"
+      ]
+    },
+    "TCO": {
+      "name": "Toll fra Colombia",
+      "countries": [
+        "CO"
+      ]
+    },
+    "TCR": {
+      "name": "Toll fra Costa Rica",
+      "countries": [
+        "CR"
+      ]
+    },
+    "TEC": {
+      "name": "Toll fra Ecuador",
+      "countries": [
+        "EC"
+      ]
+    },
+    "TEF": {
+      "name": "Toll fra EU- land",
+      "countries": [
+        "AD",
+        "AT",
+        "AX",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GF",
+        "GP",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MC",
+        "MQ",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RE",
+        "RO",
+        "SE",
+        "SI",
+        "SK",
+        "SM",
+        "XB"
+      ]
+    },
+    "TEFT": {
+      "name": "Toll fra EFTA - land",
+      "countries": [
+        "CH",
+        "IS",
+        "LI",
+        "NO",
+        "SJ"
+      ]
+    },
+    "TEG": {
+      "name": "Toll fra Egypt",
+      "countries": [
+        "EG"
+      ]
+    },
+    "TGB": {
+      "name": "Toll fra Storbritannia",
+      "countries": [
+        "GB",
+        "GG",
+        "IM",
+        "JE"
+      ]
+    },
+    "TGCC": {
+      "name": "Toll fra GCC-landene",
+      "countries": [
+        "AE",
+        "BH",
+        "KW",
+        "OM",
+        "QA",
+        "SA"
+      ]
+    },
+    "TGE": {
+      "name": "Toll fra Georgia",
+      "countries": [
+        "GE"
+      ]
+    },
+    "TGS1": {
+      "name": "Toll fra de minst utviklede land",
+      "countries": [
+        "AF",
+        "AO",
+        "BD",
+        "BF",
+        "BI",
+        "BJ",
+        "BT",
+        "CD",
+        "ER",
+        "ET",
+        "GM",
+        "GN",
+        "GW",
+        "HT",
+        "KH",
+        "KI",
+        "KM",
+        "LA",
+        "LR",
+        "LS",
+        "MG",
+        "ML",
+        "MM",
+        "MR",
+        "MW",
+        "MZ",
+        "NE",
+        "NP",
+        "RW",
+        "SB",
+        "SD",
+        "SL",
+        "SN",
+        "ST",
+        "TG",
+        "TL",
+        "TV",
+        "TZ",
+        "UG",
+        "YE",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "TGS2": {
+      "name": "Toll fra ordinære utviklingsland",
+      "countries": [
+        "AR",
+        "AZ",
+        "BR",
+        "BW",
+        "BY",
+        "CN",
+        "CU",
+        "DM",
+        "DO",
+        "FJ",
+        "GA",
+        "GY",
+        "IR",
+        "JM",
+        "KZ",
+        "MU",
+        "MV",
+        "MY",
+        "NA",
+        "NG",
+        "NU",
+        "PK",
+        "PY",
+        "SR",
+        "TH",
+        "VN",
+        "ZA"
+      ]
+    },
+    "TGS3": {
+      "name": "Ordinær GSP India (landbruksvarer)",
+      "countries": [
+        "IN"
+      ]
+    },
+    "TGS7": {
+      "name": "Toll fra Botswana og Namibia",
+      "countries": [
+        "BW",
+        "NA"
+      ]
+    },
+    "TGS8": {
+      "name": "Toll fra Eswatini",
+      "countries": [
+        "SZ"
+      ]
+    },
+    "TGS9": {
+      "name": "Toll fra BW, NA og SZ",
+      "countries": [
+        "BW",
+        "NA",
+        "SZ"
+      ]
+    },
+    "TGSP": {
+      "name": "Toll fra lavere mellominnteksland",
+      "countries": [
+        "AM",
+        "BO",
+        "BZ",
+        "CG",
+        "CI",
+        "CV",
+        "FM",
+        "GH",
+        "GT",
+        "HN",
+        "KE",
+        "KG",
+        "LK",
+        "MN",
+        "NI",
+        "PG",
+        "SV",
+        "SZ",
+        "TJ",
+        "UZ",
+        "VU",
+        "XK"
+      ]
+    },
+    "TH": {
+      "name": "Toll fra Grønland",
+      "countries": [
+        "GL"
+      ]
+    },
+    "THK": {
+      "name": "Toll fra Hong Kong",
+      "countries": [
+        "HK"
+      ]
+    },
+    "TI": {
+      "name": "Toll fra Færøyene",
+      "countries": [
+        "FO"
+      ]
+    },
+    "TID": {
+      "name": "Toll fra Indonesia",
+      "countries": [
+        "ID"
+      ]
+    },
+    "TIL": {
+      "name": "Toll fra Israel",
+      "countries": [
+        "IL"
+      ]
+    },
+    "TIN": {
+      "name": "Toll fra India",
+      "countries": [
+        "IN"
+      ]
+    },
+    "TIST": {
+      "name": "Toll fra India, Sri Lanka, Thailand",
+      "countries": [
+        "IN",
+        "LK",
+        "TH"
+      ]
+    },
+    "TJO": {
+      "name": "Toll fra Jordan",
+      "countries": [
+        "JO"
+      ]
+    },
+    "TKR": {
+      "name": "Toll fra Sør - Korea",
+      "countries": [
+        "KR"
+      ]
+    },
+    "TLB": {
+      "name": "Toll fra Libanon",
+      "countries": [
+        "LB"
+      ]
+    },
+    "TMA": {
+      "name": "Toll fra Marokko",
+      "countries": [
+        "MA"
+      ]
+    },
+    "TMD": {
+      "name": "Toll fra Moldova",
+      "countries": [
+        "MD"
+      ]
+    },
+    "TME": {
+      "name": "Toll fra Montenegro",
+      "countries": [
+        "ME"
+      ]
+    },
+    "TMK": {
+      "name": "Toll fra Nord- Makedonia",
+      "countries": [
+        "MK"
+      ]
+    },
+    "TMX": {
+      "name": "Toll fra Mexico",
+      "countries": [
+        "MX"
+      ]
+    },
+    "TOES": {
+      "name": "Toll fra EØS - området",
+      "countries": [
+        "AD",
+        "AT",
+        "AX",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GF",
+        "GP",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MC",
+        "MQ",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RE",
+        "RO",
+        "SE",
+        "SI",
+        "SK",
+        "SM",
+        "XB",
+        "XC"
+      ]
+    },
+    "TPA": {
+      "name": "Toll fra Panama",
+      "countries": [
+        "PA"
+      ]
+    },
+    "TPE": {
+      "name": "Toll fra Peru",
+      "countries": [
+        "PE"
+      ]
+    },
+    "TPH": {
+      "name": "Toll fra Filippinene",
+      "countries": [
+        "PH"
+      ]
+    },
+    "TRS": {
+      "name": "Toll fra Serbia",
+      "countries": [
+        "RS"
+      ]
+    },
+    "TSAC": {
+      "name": "Toll fra Sacu",
+      "countries": [
+        "BW",
+        "LS",
+        "NA",
+        "SZ",
+        "ZA"
+      ]
+    },
+    "TSG": {
+      "name": "Toll fra Singapore",
+      "countries": [
+        "SG"
+      ]
+    },
+    "TTN": {
+      "name": "Toll fra Tunisia",
+      "countries": [
+        "TN"
+      ]
+    },
+    "TTYR": {
+      "name": "Toll fra Tyrkia",
+      "countries": [
+        "TR"
+      ]
+    },
+    "TUA": {
+      "name": "Toll fra Ukraina",
+      "countries": [
+        "UA"
+      ]
+    },
+    "TXI": {
+      "name": "Toll fra Vestbredden og Gazastripen",
+      "countries": [
+        "PS"
+      ]
+    },
+    "UALL": {
+      "name": "Avgifter ved utførsel til alle land",
+      "countries": []
+    },
+    "UEF": {
+      "name": "Avgifter ved utførsel til EU-land",
+      "countries": [
+        "AT",
+        "BE",
+        "DE",
+        "DK",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GP",
+        "GR",
+        "GY",
+        "IE",
+        "IT",
+        "LU",
+        "MC",
+        "MQ",
+        "NL",
+        "PT",
+        "RE",
+        "SE",
+        "SM",
+        "XB"
+      ]
+    },
+    "XALL": {
+      "name": "Restriksjon utførsel alle land",
+      "countries": []
+    },
+    "XAVF": {
+      "name": "Avfallsaksjon utførsel",
+      "countries": [
+        "AF",
+        "AO",
+        "AR",
+        "BD",
+        "BF",
+        "BI",
+        "BJ",
+        "BO",
+        "BR",
+        "BW",
+        "CD",
+        "CI",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "DJ",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "EH",
+        "ER",
+        "ET",
+        "GA",
+        "GH",
+        "GM",
+        "GN",
+        "GQ",
+        "GT",
+        "GW",
+        "HK",
+        "HN",
+        "HT",
+        "IN",
+        "IQ",
+        "IR",
+        "JO",
+        "KE",
+        "LB",
+        "LR",
+        "LS",
+        "LT",
+        "LV",
+        "LY",
+        "MA",
+        "MG",
+        "ML",
+        "MW",
+        "MX",
+        "MZ",
+        "NA",
+        "NE",
+        "NG",
+        "NI",
+        "PA",
+        "PE",
+        "PK",
+        "RW",
+        "SD",
+        "SL",
+        "SN",
+        "SO",
+        "SV",
+        "SY",
+        "TD",
+        "TG",
+        "TW",
+        "TZ",
+        "UG",
+        "UY",
+        "VE",
+        "ZM",
+        "ZW"
+      ]
+    },
+    "XFO": {
+      "name": "Restriksjon til Færøyene",
+      "countries": [
+        "FO"
+      ]
+    },
+    "XGL": {
+      "name": "Restriksjon til Grønland",
+      "countries": [
+        "GL"
+      ]
+    },
+    "XHAI": {
+      "name": "Forbudte varer til Haiti og Angola",
+      "countries": [
+        "AO",
+        "HT"
+      ]
+    },
+    "XRUS": {
+      "name": "Restriksjoner til Russland",
+      "countries": []
+    },
+    "XUEO": {
+      "name": "Restriksjoner ut alle land unnt.EØS",
+      "countries": [
+        "AD",
+        "AE",
+        "AF",
+        "AG",
+        "AI",
+        "AL",
+        "AM",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AU",
+        "AW",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BM",
+        "BN",
+        "BO",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BV",
+        "BW",
+        "BY",
+        "BZ",
+        "CA",
+        "CC",
+        "CD",
+        "CF",
+        "CG",
+        "CH",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "CW",
+        "CX",
+        "DJ",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EG",
+        "EH",
+        "ER",
+        "ET",
+        "FJ",
+        "FK",
+        "FM",
+        "FO",
+        "GA",
+        "GD",
+        "GE",
+        "GF",
+        "GH",
+        "GI",
+        "GM",
+        "GN",
+        "GQ",
+        "GS",
+        "GT",
+        "GU",
+        "GW",
+        "GY",
+        "HK",
+        "HM",
+        "HN",
+        "HR",
+        "HT",
+        "ID",
+        "IL",
+        "IN",
+        "IO",
+        "IQ",
+        "IR",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KG",
+        "KH",
+        "KI",
+        "KM",
+        "KN",
+        "KP",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LK",
+        "LR",
+        "LS",
+        "LY",
+        "MA",
+        "MD",
+        "ME",
+        "MG",
+        "MH",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MQ",
+        "MR",
+        "MS",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NF",
+        "NG",
+        "NI",
+        "NP",
+        "NR",
+        "NU",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PM",
+        "PN",
+        "PR",
+        "PS",
+        "PW",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RW",
+        "SA",
+        "SB",
+        "SC",
+        "SD",
+        "SG",
+        "SH",
+        "SJ",
+        "SL",
+        "SM",
+        "SN",
+        "SO",
+        "SR",
+        "SS",
+        "ST",
+        "SV",
+        "SX",
+        "SY",
+        "SZ",
+        "TC",
+        "TD",
+        "TF",
+        "TG",
+        "TH",
+        "TJ",
+        "TK",
+        "TL",
+        "TM",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TV",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "UM",
+        "US",
+        "UY",
+        "UZ",
+        "VA",
+        "VC",
+        "VE",
+        "VG",
+        "VI",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "XK",
+        "YE",
+        "YT",
+        "ZA",
+        "ZM",
+        "ZW"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# Resurse statice (/data/*, .js, .css) sunt servite automat.
+# Fallback SPA (definit și în netlify.toml)
+/*    /index.html   200

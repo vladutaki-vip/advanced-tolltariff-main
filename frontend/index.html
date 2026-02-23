@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced Tolltariff UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Advanced Tolltariff</h1>
+    <p>Caută cod HTC și vezi țările cu cele mai mici tarife vamale (inclusiv 0%).</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Țări cu cele mai mici tarife (0% vamă)</h2>
+      <form id="bestForm">
+        <div class="grid">
+          <label>
+            Cod HTC
+            <input type="text" id="htcCode" placeholder="ex. 01012100" required />
+          </label>
+        </div>
+        <button type="submit">Afișează țări</button>
+      </form>
+      <div id="bestOutput" class="output"></div>
+    </section>
+
+    <section class="card">
+      <h2>Acorduri preferențiale pentru un cod HTC</h2>
+      <div class="grid">
+        <label>
+          Cod HTC
+          <input type="text" id="agreementsCode" placeholder="ex. 01012100" />
+        </label>
+        <button id="agreementsBtn">Acorduri</button>
+        <button id="zeroBtn">Doar tarif 0%</button>
+      </div>
+      <div id="agreementsOutput" class="output"></div>
+    </section>
+
+    <section class="card">
+      <h2>Caută cod HTC</h2>
+      <div class="grid">
+        <label>
+          Cod sau denumire
+          <input type="text" id="searchQuery" placeholder="ex. 01012100 sau horses" />
+        </label>
+        <button id="searchBtn">Caută</button>
+      </div>
+      <div id="searchOutput" class="output"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Date: tolltariffen • Hostat pe Netlify</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+{
+  "agreements": {
+    "EEA/EU": {
+      "name": null,
+      "count": 1
+    },
+    "TALL": {
+      "name": "Ordinary tariff (baseline)",
+      "count": 7481
+    },
+    "TEF": {
+      "name": "EFTA",
+      "count": 6756
+    },
+    "TGB": {
+      "name": "GSP (standard)",
+      "count": 6990
+    },
+    "TGS1": {
+      "name": "GSP (least developed)",
+      "count": 7416
+    },
+    "TGSP": {
+      "name": "GSP (preferential)",
+      "count": 6946
+    },
+    "TIN": {
+      "name": "India",
+      "count": 5588
+    },
+    "TMD": {
+      "name": "Moldova",
+      "count": 6972
+    },
+    "TOES": {
+      "name": "EEA / EØS",
+      "count": 6310
+    },
+    "TCA": {
+      "name": null,
+      "count": 6607
+    },
+    "TCO": {
+      "name": null,
+      "count": 7385
+    },
+    "TCR": {
+      "name": null,
+      "count": 6905
+    },
+    "TEC": {
+      "name": null,
+      "count": 6953
+    },
+    "TEFT": {
+      "name": null,
+      "count": 6858
+    },
+    "TGCC": {
+      "name": null,
+      "count": 6694
+    },
+    "TGE": {
+      "name": null,
+      "count": 6885
+    },
+    "THK": {
+      "name": null,
+      "count": 6642
+    },
+    "TID": {
+      "name": null,
+      "count": 7005
+    },
+    "TKR": {
+      "name": null,
+      "count": 6820
+    },
+    "TPA": {
+      "name": null,
+      "count": 6926
+    },
+    "TPE": {
+      "name": null,
+      "count": 7386
+    },
+    "TPH": {
+      "name": null,
+      "count": 6752
+    },
+    "TRS": {
+      "name": null,
+      "count": 6742
+    },
+    "TUA": {
+      "name": null,
+      "count": 6853
+    },
+    "TGS2": {
+      "name": null,
+      "count": 6859
+    },
+    "TGS3": {
+      "name": null,
+      "count": 1166
+    },
+    "TH": {
+      "name": null,
+      "count": 6514
+    },
+    "TBA": {
+      "name": null,
+      "count": 6528
+    },
+    "TSAC": {
+      "name": null,
+      "count": 7386
+    },
+    "TGS7": {
+      "name": null,
+      "count": 12
+    },
+    "TGS8": {
+      "name": null,
+      "count": 12
+    },
+    "TGS9": {
+      "name": null,
+      "count": 12
+    },
+    "TMX": {
+      "name": null,
+      "count": 6384
+    },
+    "TTN": {
+      "name": null,
+      "count": 6675
+    },
+    "TCL": {
+      "name": null,
+      "count": 6529
+    },
+    "TI": {
+      "name": null,
+      "count": 6047
+    },
+    "TIL": {
+      "name": null,
+      "count": 6581
+    },
+    "TJO": {
+      "name": null,
+      "count": 6287
+    },
+    "TLB": {
+      "name": null,
+      "count": 6459
+    },
+    "TMA": {
+      "name": null,
+      "count": 6485
+    },
+    "TME": {
+      "name": null,
+      "count": 5850
+    },
+    "TMK": {
+      "name": null,
+      "count": 6486
+    },
+    "TSG": {
+      "name": null,
+      "count": 6361
+    },
+    "TTYR": {
+      "name": null,
+      "count": 6784
+    },
+    "TXI": {
+      "name": null,
+      "count": 6369
+    },
+    "TEG": {
+      "name": null,
+      "count": 6269
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "advanced-tolltariff",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build_static_data.mjs"
+  }
+}
